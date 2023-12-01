@@ -1,0 +1,428 @@
+body {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+*:root {
+    --bg: #283B42;
+    --icons: #1D6A96;
+}
+
+.profile .profile-content {
+    display: flex;
+    margin-top: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+.profile .profile-content a {
+    color: white;
+    margin-left: 80px;
+    padding: 20px;
+}
+
+.profile .profile-content .active {
+    background-color: #063d52;
+}
+
+.profile .profile-flex {
+    display: flex;
+}
+
+.intro {
+    font-size: 20px;
+    width: 100%;
+    border-radius: 22px;
+    height: 1500px;
+    background-color: #063d52;
+    padding: 32px;
+    font-weight: bolder;
+}
+
+.intro h1 {
+    margin-top: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro button {
+    width: 100%;
+    padding: 5px;
+    background-color: #283B42;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.intro h4 i {
+    margin-right: 16px;
+}
+
+.intro p,
+h5 {
+    width: 100%;
+    background-color: #283B42;
+    height: 4%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.intro h5 {
+    padding: 12px;
+    background-color: #2a424b;
+}
+
+.intro h5 a {
+    margin-left: 65px;
+}
+
+.intro .skills {
+    margin-top: 50px;
+
+}
+
+.intro .skills .skills-content {
+    display: flex;
+}
+
+.intro .skills .skills-content .skill2 {
+    margin-left: 12px;
+    height: 23%;
+
+}
+
+.intro .skills .skills-content p {
+    width: 100%;
+    height: 20%;
+}
+
+.intro .community {
+    margin-top: 50px;
+}
+
+.intro .community .com1 {
+    display: flex;
+    padding: 12px;
+    background-color: #283B42;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.intro .community .com1 i {
+    font-size: 60px;
+    color: #1D6A96;
+    margin-top: 18px;
+}
+
+.intro .community .com1 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.intro .community .com1 .com3 {
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+.intro .community .com1 .com3 p {
+    height: 60px;
+}
+
+
+.timeline {
+    width: 200%;
+    height: 200rem;
+    margin-left: 20px;
+    border-radius: 22px;
+    background-color: #063d52;
+}
+
+.timeline .post {
+    width: 100%;
+    height: 110px;
+    border-radius: 22px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #2e6379;
+}
+
+.timeline .post div {
+    display: flex;
+}
+
+.timeline .post img {
+    margin-top: 12px;
+    border-radius: 50%;
+    width: 6%;
+    margin-left: 12px;
+}
+
+.timeline .post input {
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 70%;
+    background-color: #283B42;
+    color: white;
+}
+
+.timeline .post .post-icons {
+    margin-left: 40px;
+}
+
+.timeline .post .post-icons h3 {
+    margin-left: 16px;
+    margin-top: 12px;
+    background-color: #283B42;
+    padding: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.timeline .post .post-icons i {
+    margin-right: 12px;
+}
+
+.timeline .post2 {
+    display: flex;
+    background-color: #2e6379;
+    margin-top: 12px;
+    height: 100px;
+    border-radius: 12px;
+    font-size: 19px;
+}
+
+.timeline .post22 {
+    background-color: #2e6379;
+    height: 130px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.timeline .post-text h4{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: overline underline;
+}
+.timeline .post2 p {
+    margin-left: 60px;
+    margin-top: 12px;
+    background-color: #2a424b;
+    padding: 8px;
+    width: 100%;
+    height: 56%;
+    border-radius: 12px;
+}
+
+.timeline .post2 h3 {
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.timeline .post2 i {
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+.timeline .post2 .p {
+    display: flex;
+    margin-left: 10px;
+}
+
+.timeline .post .postt {
+    background-color: #063d52;
+    border-radius: 12px;
+    padding: 4px;
+    width: 60px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
+.my-post {
+    background-color: #2e6379;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.my-post .my-post-img img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.my-post .my-post-content {
+    display: flex;
+}
+
+.my-post .my-post-content .my-post-text {
+    margin-left: 12px;
+}
+
+.my-post .my-post-content .my-post-text h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.my-post .my-post-content .my-post-text span {
+    margin-left: 12px;
+    color: white;
+    font-weight: lighter;
+}
+
+.my-post .my-post-content .my-post-text p {
+    font-size: 12px;
+}
+
+.my-post .my-post-content .my-post-icon {
+    margin-top: 20px;
+    margin-left: 12pc;
+    cursor:pointer;
+}
+
+.my-post .my-post1 .my-post-img2 img{
+    height: 50rem;
+    width: 55rem;
+}
+
+/* Popup container - can be anything you want */
+.profile-btn {
+    display: flex;
+}
+
+#like-button {
+  color: gray;
+  font-size: 1.5em;
+  font-family: 'Heebo', sans-serif;
+  background-color: transparent;
+  border: 0.1em solid;
+  border-radius: 1em;
+  padding: 0.333em 1em 0.25em;
+  box-shadow: 0 0.25em 1em -0.25em;
+  cursor: pointer;
+  transition: color 150ms ease-in-out, background-color 150ms ease-in-out, transform 150ms ease-in-out;
+  outline: 0;
+  
+  &:hover {
+    color: red;
+  }
+  
+  &:active {
+    transform: scale(0.95);
+  }
+  
+  &.selected {
+    color: white;
+    background-color: red;
+    border-color: red;
+  }
+  
+  .heart-icon {
+    display: inline-block;
+    fill: currentColor;
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.2em;
+  }
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn{
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container2 {
+    padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 160px;
+    top: 160px;
+    width: 27%; /* Full width */
+    height: 60%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #1D6A96;
+    padding-top: 50px;
+    z-index: 100;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Close Button (x) */
+  .close {
+    position: fixed;
+    left: 455px;
+    top: 160px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+  

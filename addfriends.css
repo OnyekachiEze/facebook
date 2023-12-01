@@ -1,0 +1,63 @@
+*:root {
+    --bg: #283B42;
+    --icons: #1D6A96;
+}
+
+.container {
+    height: 9000px;
+}
+
+.profile-names-upload {
+    margin-top: 100px;
+    margin-left: 700px;
+    line-height: 100px;
+}
+
+.profile-names-upload h3 {
+    background-color: greenyellow;
+    margin-top: 50px;
+    width: 30%;
+    height: 70px;
+}
+
+.add {
+    position: absolute;
+    margin-top: 200px;
+}
+
+.add .add-content {
+    display: flex;
+    padding: 30px;
+}
+
+.add .add-content .add-img {
+    width: 50px;
+    margin-top: 22px;
+}
+
+.add .add-content .add-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.add .add-content .add-text {
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.add .add-content .add-text h4 {
+    color: var(--icons);
+    font-weight: bolder;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.add .add-content .add-btn {
+    background-color: var(--icons);
+    height: 40px;
+    margin-left: 100px;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}

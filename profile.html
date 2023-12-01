@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <div id="preloader"></div>
+    <header>
+        <a href="#" class="logo">
+            <img src="/8112540.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <input type="text" name="search" placeholder="search" class="search">
+            <a href="#" class="fa fa-search"></a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fa fa-bell"></a>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-user"></a>
+            <a href="#" class="fa fa-paper-plane"></a>
+        </div>
+
+    </header>
+
+    <div class="right">
+        <img src="/avatar/img_avatar5.png" alt="" class="avater">
+        <div class="right-icon">
+            <a href="index.html" class="fa fa-home"></a>
+            <a href="addfriends.html" class="fa fa-users"></a>
+            <a href="message.html" class="fa fa-comment"></a>
+            <a href="#" class="fa fa-bell"></a>
+            <a href="#" class="fa fa-tv"></a>
+            <a href="#" class="fa fa-shop"></a>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="home-screen">
+            <div class="profile-container">
+                <div class="profile-head">
+                    <div class="img-area" data-img="Your Cover Photo">
+                        <input type="file" id="file" accept="image/" hidden>
+                        <i class="fa fa-cloud"></i>
+                        <h3>Upload Images</h3>
+                        <p>Images size must be less than <span>2MB</span></p>
+                        <img src="/avatar/img_avatar6.png">
+                    </div>
+
+                    <button class="select-image">Change cover photo <i class="fa fa-cloud"></i></button>
+
+                    <div class="main-profile">
+                        <div class="img-area1" data-img="Your profile photo">
+                            <input type="file" id="file1" accept="image/" hidden>
+                            <i class="fa fa-cloud"></i>
+                            <h3>Upload Images</h3>
+                            <p>Image size must be less than <span>2MB</span></p>
+                            <img src="/avatar/img_avatar5.png" alt="">
+                        </div>
+
+
+                        <button class="select-image1" style="position: absolute;"><i class="fa fa-cloud"></i></button>
+
+                        <div class="profile-names-upload">
+                            <h2>Prince Gentle</h2>
+                            <p>3320 Friends</p>
+                            <span>
+                                <img src="/avatar/img_avatar2.png" alt="">
+                                <img src="/avatar/img_avatar2.png" alt="">
+                                <img src="/avatar/img_avatar2.png" alt="">
+                                <img src="/avatar/img_avatar2.png" alt="">
+                                <img src="/avatar/img_avatar2.png" alt="">
+                                <img src="/avatar/img_avatar2.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="profile">
+            <div class="profile-content">
+                <a href="#" class="active">Profile</a>
+                <a href="about.html">About</a>
+                <a href="friends.html">Friends</a>
+                <a href="photos.html">Photos</a>
+                <a href="videos.html">Videos</a>
+            </div>
+            <div class="profile-flex">
+                <div class="intro">
+                    <h1>Intro</h1>
+                    <button>Add Bio</button>
+                    <h4><i class="fa fa-feed"></i>Followed by 10 people</h4>
+                    <p>Edit details</p>
+                    <p>Add Hobbies</p>
+                    <p>Add Featured</p>
+
+                    <h5>Photos <a href="#">See All Photos</a></h5>
+                    <h5>Friends <a href="#">See All Friends</a></h5>
+
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skills-content">
+                            <div>
+                                <p>UX design</p>
+                                <p>Copywriting</p>
+                                <p>Mobile</p>
+                                <p>Research</p>
+                            </div>
+
+                            <div class="skill2">
+                                <p>User Interview</p>
+                                <p>JS</p>
+                                <p>Logs</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="community">
+                        <h2>Community</h2>
+                        <div class="com1">
+                            <div class="com2">
+                                <i class="fa fa-o"></i>
+                            </div>
+                            <div class="com3">
+                                <h3>UX designers community</h3>
+                                <p>32 of your Friends are here...</p>
+                            </div>
+                        </div>
+
+                        <div class="com1">
+                            <div class="com2">
+                                <img src="/avatar/img_avatar.png" alt="">
+                            </div>
+                            <div class="com3">
+                                <h3>front-end developers</h3>
+                                <p>32 of your Friends are here...</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="timeline">
+                    <div class="post">
+                        <div>
+                            <img src="/avatar/avatar.png" alt="">
+                            <input type="text" placeholder="What's on your mind?">
+                            <button class="postt" onclick="myFunction()">Publish</button>
+
+                        </div>
+                        <div class="post-icons">
+                            <h3><i class="fa fa-video"></i>Live Video</h3>
+                            <h3><i class="fa fa-camera"></i>Photo or video</h3>
+                            <h3><i class="fa fa-flag"></i>Life event</h3>
+                        </div>
+
+                    </div>
+                    <div class="post22">
+                        <div class="post2">
+                            <h3>Posts</h3>
+                            <div class="p">
+                                <p><i class="fa fa-sliders"></i>Filter</p>
+                                <p><i class="fa fa-gear"></i>Manage posts</p>
+                            </div>
+
+                        </div>
+                        <div class="post-text">
+                            <h4>My Timeline</h4>
+                        </div>
+                    </div>
+
+                    <div class="my-post">
+                        <div class="my-post1">
+                            <div class="my-post-content">
+
+                                <div class="my-post-img">
+                                    <img src="/avatar/avatar.png" alt="">
+                                </div>
+                                <div class="my-post-text">
+                                    <h1>Prince Gentle<span>Updated his cover photo</span></h1>
+                                    <p>30 March<i class="fa fa-earth"></i></p>
+                                </div>
+                                <div class="my-post-icon">
+                                    <i class="fa fa-bars"></i>
+                                </div>
+
+                            </div>
+                            <div class="my-post-img2">
+                                <img src="/avatar/avatar.png" alt="">
+                            </div>
+                            <div class="profile-btn">
+                                <button type="button" id="like-button">
+                                    <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                        <path
+                                            d="M91.6 13A28.7 28.7 0 0 0 51 13l-1 1-1-1A28.7 28.7 0 0 0 8.4 53.8l1 1L50 95.3l40.5-40.6 1-1a28.6 28.6 0 0 0 0-40.6z" />
+                                    </svg>
+                                    Like
+                                </button>
+
+                                <button onclick="document.getElementById('id01').style.display='block'"
+                                    style="width:100px; height: 50px;margin-left: 50px;">Comment</button>
+
+                                <div id="id01" class="modal">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                        title="Close Modal">&times;</span>
+
+                                    <div class="container2">
+                                        <div id="fb-root">Comment</div>
+                                        <div class="fb-comments"
+                                            data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+                                            data-width="" data-numposts="5">
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-post">
+                        <div class="my-post1">
+                            <div class="my-post-content">
+
+                                <div class="my-post-img">
+                                    <img src="/avatar/avatar.png" alt="">
+                                </div>
+                                <div class="my-post-text">
+                                    <h1>Prince Gentle<span>Updated his cover photo</span></h1>
+                                    <p>30 March<i class="fa fa-earth"></i></p>
+                                </div>
+                                <div class="my-post-icon">
+                                    <i class="fa fa-bars"></i>
+                                </div>
+
+                            </div>
+                            <div class="my-post-img2">
+                                <img src="/avatar/avatar.png" alt="">
+                            </div>
+                            <div class="profile-btn">
+                                <button type="button" id="like-button">
+                                    <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                        <path
+                                            d="M91.6 13A28.7 28.7 0 0 0 51 13l-1 1-1-1A28.7 28.7 0 0 0 8.4 53.8l1 1L50 95.3l40.5-40.6 1-1a28.6 28.6 0 0 0 0-40.6z" />
+                                    </svg>
+                                    Like
+                                </button>
+
+                                <button onclick="document.getElementById('id01').style.display='block'"
+                                    style="width:100px; height: 50px;margin-left: 50px;">Comment</button>
+
+                                <div id="id01" class="modal">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                        title="Close Modal">&times;</span>
+
+                                    <div class="container2">
+                                        <div id="fb-root">Comment</div>
+                                        <div class="fb-comments"
+                                            data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+                                            data-width="" data-numposts="5">
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-post">
+                        <div class="my-post1">
+                            <div class="my-post-content">
+
+                                <div class="my-post-img">
+                                    <img src="/avatar/avatar.png" alt="">
+                                </div>
+                                <div class="my-post-text">
+                                    <h1>Prince Gentle<span>Updated his cover photo</span></h1>
+                                    <p>30 March<i class="fa fa-earth"></i></p>
+                                </div>
+                                <div class="my-post-icon">
+                                    <i class="fa fa-bars"></i>
+                                </div>
+
+                            </div>
+                            <div class="my-post-img2">
+                                <img src="/avatar/avatar.png" alt="">
+                            </div>
+
+                            <div class="profile-btn">
+                                <button type="button" id="like-button">
+                                    <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                        <path
+                                            d="M91.6 13A28.7 28.7 0 0 0 51 13l-1 1-1-1A28.7 28.7 0 0 0 8.4 53.8l1 1L50 95.3l40.5-40.6 1-1a28.6 28.6 0 0 0 0-40.6z" />
+                                    </svg>
+                                    Like
+                                </button>
+
+                                <button onclick="document.getElementById('id01').style.display='block'"
+                                    style="width:100px; height: 50px;margin-left: 50px;"></button>
+
+                                <div id="id01" class="modal">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                        title="Close Modal">&times;</span>
+
+                                    <div class="container2">
+                                        <div id="fb-root">Comment</div>
+                                        <div class="fb-comments"
+                                            data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+                                            data-width="" data-numposts="5">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="fb-comments"
+                                    data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+                                    data-width="" data-numposts="5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-post">
+                            <div class="my-post1">
+                                <div class="my-post-content">
+
+                                    <div class="my-post-img">
+                                        <img src="/avatar/avatar.png" alt="">
+                                    </div>
+                                    <div class="my-post-text">
+                                        <h1>Prince Gentle<span>Updated his cover photo</span></h1>
+                                        <p>30 March<i class="fa fa-earth"></i></p>
+                                    </div>
+                                    <div class="my-post-icon">
+                                        <i class="fa fa-bars"></i>
+                                    </div>
+
+                                </div>
+                                <div class="my-post-img2">
+                                    <img src="/avatar/avatar.png" alt="">
+                                </div>
+                                <div class="profile-btn">
+                                    <button type="button" id="like-button">
+                                        <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 100 100">
+                                            <path
+                                                d="M91.6 13A28.7 28.7 0 0 0 51 13l-1 1-1-1A28.7 28.7 0 0 0 8.4 53.8l1 1L50 95.3l40.5-40.6 1-1a28.6 28.6 0 0 0 0-40.6z" />
+                                        </svg>
+                                        Like
+                                    </button>
+
+                                    <button onclick="document.getElementById('id01').style.display='block'"
+                                        style="width:100px; height: 50px;margin-left: 50px;">Comment</button>
+
+                                    <div id="id01" class="modal">
+                                        <span onclick="document.getElementById('id01').style.display='none'"
+                                            class="close" title="Close Modal">&times;</span>
+
+                                        <div class="container2">
+                                            <div id="fb-root">Comment</div>
+                                            <div class="fb-comments"
+                                                data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+                                                data-width="" data-numposts="5">
+                                            </div>
+
+
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div style="display: none;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_f7UMIEaf9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+
+        </div>
+
+
+
+
+
+
+        <script src="script.js"></script>
+
+
+        <!-- Pop up -->
+        <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="FtU9puaC"></script>
+        <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="Q2p4lI1q"></script>
+
+</body>
+
+</html>
